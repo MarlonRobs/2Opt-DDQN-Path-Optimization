@@ -15,7 +15,6 @@ Optimizing the harvest path in an orchard of 22.47m x 13.06m is a significant co
 *   **Spatial Decomposition**: Divides the orchard into 10 sections (2x5 grid) to reduce the DDQN state-space complexity.
 *   **Wavy Navigation Logic**: Implements a global "wavy" movement pattern to connect distributed local agents.
 *   **2Opt-DDQN Hybrid**: Combines deep reinforcement learning with classical 2-Opt geometric refinement.
-*   **Workspace Awareness**: Incorporates an 85cm robotic arm reach tolerance to further smooth and shorten the base trajectory.
 
 ## 🚀 Performance
 *   **DDQN vs. Greedy Nearest Neighbor**: 6.42% distance reduction.
@@ -51,7 +50,6 @@ This file contains the backbone of the project:
 This file is dedicated to analysis and graphical results:
 - **Metric Plots**: Cumulative reward vs. episodes and distance evolution graphs.
 - **Path Visualization**: Comparison of generated routes (GNN vs. DDQN vs. 2Opt-DDQN) for individual sections and the full orchard.
-- **Reach Tolerance Optimization**: Python implementation of the 85cm workspace smoothing (TSPN logic).
 - **Statistical Tables**: Bar charts comparing the efficiency of the three models.
 
 ---
