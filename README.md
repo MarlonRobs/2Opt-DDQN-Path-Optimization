@@ -53,5 +53,5 @@ This file is dedicated to analysis and graphical results:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/MarlonRobs/harvest-path-optimization.git
+   git clone https://github.com/MarlonRobs/2Opt-DDQN-Path-Optimization.git
    cd harvest-path-optimization
