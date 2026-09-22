@@ -6,7 +6,7 @@ This repository contains the implementation of a hybrid route optimization frame
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Topic](https://img.shields.io/badge/robotics-precision_agriculture-orange)
 
-## 📌 Project Overview
+##  Project Overview
 
 Optimizing the harvest path in an orchard of 22.47m x 13.06m is a significant computational challenge due to the high density of fruit clusters. This project proposes a "Divide and Conquer" strategy to make Reinforcement Learning feasible for large-scale path planning.
 
@@ -18,7 +18,7 @@ Optimizing the harvest path in an orchard of 22.47m x 13.06m is a significant co
 
 ---
 
-## 💻 Hardware & Software
+##  Hardware & Software
 
 ### Hardware Specifications
 - **CPU**: AMD Ryzen 7 8845HS @ 3.8 GHz
@@ -31,7 +31,7 @@ Optimizing the harvest path in an orchard of 22.47m x 13.06m is a significant co
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The project consists of two main Jupyter Notebooks:
 
