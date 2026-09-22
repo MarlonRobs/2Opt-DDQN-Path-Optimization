@@ -16,11 +16,6 @@ Optimizing the harvest path in an orchard of 22.47m x 13.06m is a significant co
 *   **Wavy Navigation Logic**: Implements a global "wavy" movement pattern to connect distributed local agents.
 *   **2Opt-DDQN Hybrid**: Combines deep reinforcement learning with classical 2-Opt geometric refinement.
 
-## 🚀 Performance
-*   **DDQN vs. Greedy Nearest Neighbor**: 6.42% distance reduction.
-*   **2Opt-DDQN vs. Greedy**: 9.64% total distance reduction.
-*   **Convergence**: Training stabilizes at approximately $4200 \pm 500$ episodes per section.
-
 ---
 
 ## 💻 Hardware & Software
@@ -49,7 +44,7 @@ This file contains the backbone of the project:
 ### 2. `Comparison_and_Visualization.ipynb`
 This file is dedicated to analysis and graphical results:
 - **Metric Plots**: Cumulative reward vs. episodes and distance evolution graphs.
-- **Path Visualization**: Comparison of generated routes (GNN vs. DDQN vs. 2Opt-DDQN) for individual sections and the full orchard.
+- **Path Visualization**: Comparison of generated routes (DDQN vs. GNN vs. OR-TOOLS vs. CHRISTOFIDES) for individual sections and the full orchard.
 - **Statistical Tables**: Bar charts comparing the efficiency of the three models.
 
 ---
